@@ -1,0 +1,33 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "onewordbot",
+  "version": "0.0.1",
+  "description": "Reports on one-word Twitter posts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "twit": "^2.2.5",
+    "can-i-chime-in": "^2.0.11",
+    "probable": "^2.1.1",
+    "request": "^2.81.0",
+    "express": "^4.15.3",
+    "split-to-words": "^1.0.0",
+    "iscool": "^1.1.37"
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "bot"
+  ]
+}
